@@ -1,5 +1,5 @@
 ### `.env`
-Create .env file and add ** **REACT_APP_SERVER_URL**
+Create **.env** file and add **REACT_APP_SERVER_URL**
 
 ### `npm start`
 
