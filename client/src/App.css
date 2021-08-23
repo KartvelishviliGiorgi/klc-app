@@ -1,0 +1,132 @@
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+nav {
+  display: grid;
+}
+
+ul {
+  margin: auto;
+}
+
+li {
+  font-size: 32px;
+  display: inline-block;
+  padding: 32px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.reg-auth-container {
+  display: grid;
+}
+
+.sign-up-form {
+  width: 500px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.button-container {
+  display: grid;
+}
+
+.form-submit-button {
+  margin: auto;
+  width: 150px;
+  background-color: #38d39f;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover, #sign-in-btn:hover, #sign-up-btn:hover {
+  background-color: #43B58A;
+}
+
+.btn.transparent {
+  margin: 0;
+  background: none;
+  border: 2px solid #fff;
+  width: 130px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.error-box {
+  text-align: center;
+  background-color: #acacac;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+
+.users-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.profile-card{
+  padding: 20px;
+  font-size: 16px;
+  /* width: 400px; */
+  text-align: center;
+  border-radius: 20%;
+  overflow: hidden;
+}
+
+.card-header{
+  background: #2c3a47;
+  padding: 100px 50px;
+}
+
+.pic{
+  display: inline-block;
+  padding: 8px;
+  background: linear-gradient(130deg, #38d39f, #43B58A);
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  animation: animated-gradient 2s linear infinite;
+}
+
+.pic img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name{
+  color: #f2f2f2;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.email{
+  font-size: 18px;
+  color: #38d39f;
+}
